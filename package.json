@@ -1,5 +1,16 @@
 {
+  "name": "ykmailDoc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuekesoft/ykmailDoc.git",
+  "author": "yuekesoft <1961339@qq.com>",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.75"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 0.0.0.0",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   }
 }
